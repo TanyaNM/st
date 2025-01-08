@@ -1,0 +1,59 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 187, 0, 0.796);
+    color: #333;
+}
+
+h1, h2 {
+    color: #FF6600; /* Оранжевий колір для заголовків */
+}
+
+/* Стилі для шапки */
+header {
+   background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center; 
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Стилі для секції введення */
+.intro {
+    padding: 20px;
+    background-color:rgb(0, 13, 255);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.intro p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    color:rgb(255, 0, 0);
+}
+img{
+    width: 500px;
+}
